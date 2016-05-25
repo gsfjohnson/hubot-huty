@@ -64,7 +64,9 @@ module.exports = (robot) ->
         msg.send "No available commands match #{filter}"
         return
 
-    emit = cmds.join "\n" + "remember to prefix commands with robot name, only in channels"
+    cmds.push ""
+    cmds.push "remember to prefix commands with robot name, only in channels"
+    emit = cmds.join "\n"
 
     robot.send {room: msg.message.user.name}, emit
 
@@ -80,8 +82,8 @@ module.exports = (robot) ->
     res.end helpContents robot.name, emit
 
 renamedHelpCommands = (robot) ->
-  robot_name = robot.alias or robot.name
+  # robot_name = robot.alias or robot.name
   help_commands = robot.helpCommands().map (command) ->
-    command.replace /^hubot/i, robot_name
+    command.replace /^hubot /i, ""
   help_commands.sort()
 
