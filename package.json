@@ -23,7 +23,7 @@
     "hubot-aws": "^0.3.0",
     "hubot-graphme": "^0.2.0",
     "hubot-redis-brain": "0.0.3",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-scripts": "git://github.com/gsfjohnson/hubot-shipit#master",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.4.2"
   },
