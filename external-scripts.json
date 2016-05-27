@@ -1,5 +1,7 @@
 [
-  "hubot-graphme"
+  "hubot-auth"
+  ,"hubot-graphme"
   ,"hubot-shipit"
   ,"hubot-github"
+  ,"hubot-pugme"
 ]
