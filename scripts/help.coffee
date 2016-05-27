@@ -65,7 +65,7 @@ module.exports = (robot) ->
         return
 
     cmds.push ""
-    cmds.push "remember to prefix commands with robot name, only in channels"
+    cmds.push "remember to prefix commands with robot name (`#{robot.name}`) in channels, but not in direct messages"
     emit = cmds.join "\n"
 
     robot.send {room: msg.message.user.name}, emit
@@ -86,4 +86,3 @@ renamedHelpCommands = (robot) ->
   help_commands = robot.helpCommands().map (command) ->
     command.replace /^hubot /i, ""
   help_commands.sort()
-
