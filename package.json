@@ -21,6 +21,7 @@
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-aws": "^0.3.0",
+    "hubot-github": "git://github.com/gsfjohnson/hubot-github#master",
     "hubot-graphme": "^0.2.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "git://github.com/gsfjohnson/hubot-shipit#master",
