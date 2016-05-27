@@ -24,7 +24,7 @@
     "hubot-aws": "git://github.com/gsfjohnson/hubot-aws#master",
     "hubot-github": "git://github.com/gsfjohnson/hubot-github#master",
     "hubot-graphme": "git://github.com/gsfjohnson/hubot-graphme#master",
-    "hubot-pugme": "^0.1.0",
+    "hubot-pugme": "git://github.com/gsfjohnson/hubot-pugme#master",
     "hubot-redis-brain": "0.0.3",
     "hubot-shipit": "git://github.com/gsfjohnson/hubot-shipit#master",
     "hubot-slack": "^3.4.2"

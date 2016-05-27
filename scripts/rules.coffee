@@ -1,9 +1,6 @@
 # Description:
 #   Make sure that hubot knows the rules.
 #
-# Commands:
-#   hubot the rules - Make sure hubot still knows the rules.
-#
 # Notes:
 #   DON'T DELETE THIS SCRIPT! ALL ROBAWTS MUST KNOW THE RULES
 
