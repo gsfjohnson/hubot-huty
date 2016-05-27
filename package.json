@@ -1,6 +1,6 @@
 {
   "name": "hubot-openshift",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Hubot on OpenShift",
   "keywords": [
     "Hubot",
@@ -22,7 +22,7 @@
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-aws": "^0.3.0",
     "hubot-github": "git://github.com/gsfjohnson/hubot-github#master",
-    "hubot-graphme": "^0.2.0",
+    "hubot-graphme": "git://github.com/gsfjohnson/hubot-graphme#master",
     "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "git://github.com/gsfjohnson/hubot-shipit#master",
     "hubot-shipit": "^0.2.0",
