@@ -2,9 +2,11 @@
   "hubot-auth"
   ,"hubot-graphme"
   ,"hubot-shipit"
-  ,"hubot-github"
   ,"hubot-pugme"
   ,"hubot-help"
   ,"hubot-tell"
   ,"hubot-calculator"
+  ,"hubot-tf"
+  ,"hubot-aws-s3"
+  ,"hubot-vault"
 ]
